@@ -1,0 +1,159 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    /* background-image: url(Assets/Rectangle\ 2.jpeg ); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 17vh;
+    background-color: rgba(41, 38, 38, 0.61);
+}
+.logo{
+    margin-left: 80px;
+}
+nav{
+    margin-right: 80px;
+
+   
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    gap: 4rem;
+    
+
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover{
+    color: blue;
+
+}
+.firstpage{
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(41, 38, 38, 0.61);
+    
+}
+.container{
+    text-align: center;
+}
+
+.firstpage h4{
+   font-size: 25px;
+   font-weight: 400;
+   margin: 0%;
+   color: white;
+
+}
+.firstpage h2{
+    font-size: 40px;
+    margin: 20px;
+    color: white;
+
+    
+}
+.firstpage button{
+    margin-top: 20px;
+    padding: 10px 22px;
+    color: white;
+    background-color:blue;
+    border: none;
+}
+.second_page{
+    height: 50vh;
+    
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+}
+.hours{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: white;
+    font-size: 23px;
+}
+.lab_service{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: white;
+    font-size: 23px;
+}
+.medical{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: white;
+    font-size: 23px;
+}
+
+/* NEW CSS */
+.container4{
+width: 373px;
+height: 481px;
+background-color: #0052ff;
+}
+
+
+
+.p1{
+    font-size: 16px;
+}
+
+.blue_color{
+
+    color: #0052ff;
+}
+.Department{
+   align-items: center;
+    background: #ffffff;
+
+    }
+    .container5{
+     width: 270px;
+     height: 226px;
+     flex-shrink: 0;
+     padding: 60px;
+     justify-content: center;
+
+
+    }
+    .icon{
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+    }
+    .grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+
+    }
+    .psychiatry{
+        justify-content: center;
+        grid-column: 1;
+        grid-row: 1;
+        background-color:blue;
+        font-size: 23px;
+        width: 270px;
+        height:226px;
+        
+        
+    }
+
